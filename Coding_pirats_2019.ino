@@ -5,7 +5,9 @@ ZumoBuzzer buzzer;
 ZumoMotors motors;
 Pushbutton button(ZUMO_BUTTON); // pushbutton on pin 12
 
-#define speed 200
+#define speed 400 
+
+#define turnSpeed 200
 
 #define stop 0
 
@@ -69,16 +71,16 @@ void venstre()
 {
   motors.flipLeftMotor(true);
   motors.flipRightMotor(false);
-  motors.setLeftSpeed(speed);
-  motors.setRightSpeed(speed);
+  motors.setLeftSpeed(turnSpeed);
+  motors.setRightSpeed(turnSpeed);
 }
 
 void hojre()
 {
   motors.flipLeftMotor(false);
   motors.flipRightMotor(true);
-  motors.setLeftSpeed(speed);
-  motors.setRightSpeed(speed);
+  motors.setLeftSpeed(turnSpeed);
+  motors.setRightSpeed(turnSpeed);
 }
 
 void baglanse()
