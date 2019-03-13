@@ -1,6 +1,6 @@
 #pragma once
 #include "IEyeSensor.h"
-#include "Newping.h"
+#include "NewPing.h"
 
 
 
@@ -16,4 +16,3 @@ private:
     const int ECHO_PIN = 11;
     const int MAX_DISTANCE = 200;
 };
-
