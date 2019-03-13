@@ -1,9 +1,10 @@
-#include <Wire.h>
 #include "Motor.h"
 #include "KantSensor.h"
+#include "EyeUltraSound.h"
 
-Motor::Motor motor;
-KantSensor::KantSensor kantsensor;
+Motor motor;
+KantSensor kantSensor;
+EyeUltraSound eyeSensor;
 
 void setup()
 {
@@ -11,5 +12,7 @@ void setup()
 
 void loop()
 {
-  kantsensor.KantDetektor();
+  kantSensor.KantDetektor();
+  motor.Fremad();
+  eyeSensor.afstand();
 }

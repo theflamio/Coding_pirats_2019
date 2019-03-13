@@ -1,14 +1,14 @@
-#include "EyeInferRedLight.h"
+#include "EyeInfraRedLight.h"
 
-EyeInferRedLight::EyeInferRedLight()
+EyeInfraRedLight::EyeInfraRedLight()
 {
 }
 
-EyeInferRedLight::~EyeInferRedLight()
+EyeInfraRedLight::~EyeInfraRedLight()
 {
 }
 
-float EyeInferRedLight::Afstand()
+float EyeInfraRedLight::Afstand()
 {
     return 0;
 }

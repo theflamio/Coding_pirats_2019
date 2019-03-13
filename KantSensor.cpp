@@ -23,6 +23,6 @@ void KantSensor::KantDetektor()
     }
     else
     {
-        motor.fremad();
+        motor.Fremad();
     }
 }

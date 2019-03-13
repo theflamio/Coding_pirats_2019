@@ -1,0 +1,5 @@
+{
+    "sketch": "Coding_pirats_2019.ino",
+    "port": "COM1",
+    "board": "arduino:avr:uno"
+}

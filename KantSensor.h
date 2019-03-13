@@ -16,8 +16,10 @@ class KantSensor
 public:
     KantSensor();
     ~KantSensor();
-    KantDetektor();
+    void KantDetektor();
 private:
+
+Motor motor;
 
 };
 

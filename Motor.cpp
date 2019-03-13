@@ -2,7 +2,7 @@
 
 Motor::Motor(/* args */)
 {
-    ZumoMotors motors;
+    
 }
 
 Motor::~Motor()
